@@ -1,0 +1,4 @@
+Ask for the height of the blocks
+If it is different then ingtegers between 0 and 8 go back to step 1.
+Create number of rows same as the height
+For each row add same number of #'s with the row number
