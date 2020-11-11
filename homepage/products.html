@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Products</title>
+    </head>
+
+    <script>
+    function chart()
+    {
+    alert('Added to your chart!')
+    }
+    </script>
+
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+        <a class="navbar-brand" href="index.html"><img src="veganlogo.png" width="30" height="30" class="d-inline-block align-top" alt="Logo" loading="lazy">
+          VeganShop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ">
+            <a class="nav-link" href="index.html">Home </a>
+            <a class="nav-link active" href="products.html">Products <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="about.html">About Us</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </div>
+        </div>
+      </nav>
+<div class="container">
+        <h1 class="title">Products</h1>
+
+        <!-- Cat products with card element-->
+    <div class="row mx-md-n5">
+         <div class="col px-md-5">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top size" src="pics/food1.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Food</h5>
+                <p class="card-text">40% SALE!</p>
+                <p class="card-text"><s>$29.9 </s>$17.94</p>
+                  <button class="btn btn-primary" type="button"
+                  onclick="chart(); return false;">
+                  Add to chart</button>
+
+                  <p id="demo"></p>
+              </div>
+            </div>
+        </div>
+        <div class="col px-md-5">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top size" src="pics/food2.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Food</h5>
+                <p class="card-text">40% SALE!</p>
+                <p class="card-text"><s>$14.9  </s>$8.94</p>
+                  <button class="btn btn-primary" type="button"
+                  onclick="chart(); return false;">
+                  Add to chart</button>
+              </div>
+            </div>
+        </div>
+        <div class="col px-md-5">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top size" src="pics/toy.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Cat Toy</h5>
+                <p class="card-text">40% SALE!</p>
+                <p class="card-text"><s>$19.9 </s>$11.94</p>
+                  <button class="btn btn-primary" type="button"
+                  onclick="chart(); return false;">
+                  Add to chart</button>
+              </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+    </body>
+
+</html>

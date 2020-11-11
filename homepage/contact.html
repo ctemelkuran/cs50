@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Contact</title>
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+        <a class="navbar-brand" href="index.html"><img src="veganlogo.png" width="30" height="30" class="d-inline-block align-top" alt="Logo" loading="lazy">
+          VeganShop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ">
+            <a class="nav-link" href="index.html">Home </a>
+            <a class="nav-link" href="products.html">Products</a>
+            <a class="nav-link" href="about.html">About Us</a>
+            <a class="nav-link active" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+
+          </div>
+        </div>
+      </nav>
+        <h1 class="title">Contact</h1>
+        <!--user contact form-->
+          <form class="needs-validation" novalidate>
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationTooltip01">First name</label>
+                <input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
+                <div class="valid-tooltip">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="validationTooltip02">Last name</label>
+                <input type="text" class="form-control" id="validationTooltip02" value="Otto" required>
+                <div class="valid-tooltip">
+                  Looks good!
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationTooltip03">E-mail</label>
+                <input type="text" class="form-control" id="validationTooltip03" required>
+                <div class="invalid-tooltip">
+                  Please provide a valid e-mail.
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="validationTextarea">Your message</label>
+                <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+                <div class="invalid-feedback">
+                  Please enter a message in the textarea.
+                </div>
+              </div>
+
+            </div>
+            <button class="btn btn-primary" type="submit">Gönder</button>
+          </form>
+          <p class="text-muted text-center">
+            Başka şeyler için info@veganshop.com
+          </p>
+    </body>
+</html>

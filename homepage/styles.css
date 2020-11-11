@@ -1,0 +1,27 @@
+.title
+{
+    text-align: center;
+    font-family: calibri;
+}
+
+.bg-green
+{
+  background-color: green;
+  opacity: 0.8;
+}
+
+.fontcalibri
+{
+    font-family: calibri;
+}
+
+.firebrick
+{
+    color: firebrick;
+}
+
+.size
+{
+    width: 300;
+    height: 300;
+}
